@@ -1,0 +1,3 @@
+/home/ardayuksel/QtUdpMulticastApp/build/appQtUdpMulticastApp_autogen/include/../EWIEGA46WW/moc_socketcanreader.cpp.json
+/home/ardayuksel/QtUdpMulticastApp/build/appQtUdpMulticastApp_autogen/include/../EWIEGA46WW/moc_udpreceiver.cpp.json
+/home/ardayuksel/QtUdpMulticastApp/build/appQtUdpMulticastApp_autogen/include/../EWIEGA46WW/moc_xmlparser.cpp.json

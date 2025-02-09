@@ -1,0 +1,52 @@
+{
+    "classes": [
+        {
+            "className": "XmlParser",
+            "lineNumber": 9,
+            "object": true,
+            "qualifiedClassName": "XmlParser",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "type",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "x",
+                            "type": "int"
+                        },
+                        {
+                            "name": "y",
+                            "type": "int"
+                        },
+                        {
+                            "name": "width",
+                            "type": "int"
+                        },
+                        {
+                            "name": "height",
+                            "type": "int"
+                        },
+                        {
+                            "name": "color",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "newShape",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "xmlparser.h",
+    "outputRevision": 68
+}

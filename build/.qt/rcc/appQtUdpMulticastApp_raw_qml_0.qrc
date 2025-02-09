@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/QtUdpMulticastApp/">
+    <file alias="qml/Main.qml">/home/ardayuksel/QtUdpMulticastApp/qml/Main.qml</file>
+  </qresource>
+</RCC>
+

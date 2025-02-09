@@ -1,0 +1,44 @@
+{
+    "classes": [
+        {
+            "className": "SocketCanReader",
+            "lineNumber": 13,
+            "object": true,
+            "qualifiedClassName": "SocketCanReader",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "id",
+                            "type": "int"
+                        },
+                        {
+                            "name": "data",
+                            "type": "QByteArray"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "canDataReceived",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "private",
+                    "index": 1,
+                    "name": "processCanFrame",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "socketcanreader.h",
+    "outputRevision": 68
+}
