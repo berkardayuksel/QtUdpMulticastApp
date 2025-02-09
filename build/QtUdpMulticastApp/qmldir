@@ -1,5 +1,0 @@
-module QtUdpMulticastApp
-typeinfo appQtUdpMulticastApp.qmltypes
-prefer :/qt/qml/QtUdpMulticastApp/
-Main 1.0 qml/Main.qml
-

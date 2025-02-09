@@ -1,7 +1,0 @@
---resource
-/home/ardayuksel/QtUdpMulticastApp/build/.qt/rcc/qmake_QtUdpMulticastApp.qrc
---resource
-/home/ardayuksel/QtUdpMulticastApp/build/.qt/rcc/appQtUdpMulticastApp_raw_qml_0.qrc
---resource
-/home/ardayuksel/QtUdpMulticastApp/build/.qt/rcc/qml_resources.qrc
-/qt/qml/QtUdpMulticastApp/qml/Main.qml

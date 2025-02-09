@@ -1,2 +1,0 @@
-set(__QT_DEPLOY_TARGET_appQtUdpMulticastApp_FILE /home/ardayuksel/QtUdpMulticastApp/build/appQtUdpMulticastApp)
-set(__QT_DEPLOY_TARGET_appQtUdpMulticastApp_TYPE EXECUTABLE)

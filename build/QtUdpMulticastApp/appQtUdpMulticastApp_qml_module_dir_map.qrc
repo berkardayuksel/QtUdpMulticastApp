@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="/">
-    <file alias="/qt/qml/QtUdpMulticastApp">/home/ardayuksel/QtUdpMulticastApp/build/QtUdpMulticastApp</file>
-
-  </qresource>
-</RCC>
