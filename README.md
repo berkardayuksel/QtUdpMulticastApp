@@ -17,4 +17,3 @@ This project is an application that receives data via UDP multicast and lists an
 - Qt 6 or higher
 - Linux-based system
 - SocketCAN interface (optional)
-
