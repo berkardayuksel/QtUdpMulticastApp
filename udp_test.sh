@@ -1,0 +1,8 @@
+#!/bin/bash
+
+MULTICAST_GROUP="239.255.0.1"
+PORT=11220
+INTERFACE="enp0s8"
+
+echo "Dinleniyor: $MULTICAST_GROUP:$PORT"
+sudo socat UDP-RECVFROM:$PORT,ip-add-membership=$MULTICAST_GROUP:$INTERFACE -

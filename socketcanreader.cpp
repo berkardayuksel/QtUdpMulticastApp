@@ -18,3 +18,7 @@ void SocketCanReader::startReading() {
     }
     emit canInterfacesUpdated(interfaces);
 }
+
+void SocketCanReader::processCanFrame() {
+    qDebug() << "SocketCAN frame processed.";
+}

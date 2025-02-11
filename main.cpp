@@ -13,7 +13,7 @@ int main(int argc, char *argv[]) {
     XmlParser xmlParser;
     SocketCanReader socketCanReader;
 
-    udpReceiver.startListening();
+    udpReceiver.startListening("230.0.0.2", 11220);
     socketCanReader.startReading();
 
     engine.rootContext()->setContextProperty("udpReceiver", &udpReceiver);

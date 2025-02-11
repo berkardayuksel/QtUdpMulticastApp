@@ -1,5 +1,7 @@
 cmake_minimum_required(VERSION 3.16)
 
+set(CMAKE_PREFIX_PATH "/home/ardayuksel/Desktop/6.8.2/gcc_arm64/lib/cmake/Qt6")
+
 project(QtUdpMulticastApp VERSION 0.1 LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -27,6 +29,7 @@ qt_add_resources(appQtUdpMulticastApp "qml_resources"
     BASE "qml"
     FILES
         qml/Main.qml
+        sceneData.xml  
 )
 
 set_target_properties(appQtUdpMulticastApp PROPERTIES
@@ -46,3 +49,4 @@ install(TARGETS appQtUdpMulticastApp
     LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
     RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
 )
+
